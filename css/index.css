@@ -1,0 +1,92 @@
+ html{
+    height: 100%;
+  }
+  html body {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  html body .container-fluid.body-content {
+    width: 400%;
+    overflow-y: auto;
+  }
+  header {
+      background-color: rgb(68, 165, 204);
+      min-height: 100px;
+      width: 100%;
+      
+      
+  }
+  .img img{
+    padding-left: 0px;
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 70px;
+  }
+  h2{
+    color: blue;
+    font-family: Cambria;
+    margin-left: 3em;
+    text-align:center;
+    font-size:larger;
+  }
+  footer {
+      background-color: rgb(68, 147, 204);
+      min-height: 30px;
+      width: 100%;
+  }
+ h3{
+    padding-right:  -10px;
+    text-align:left;
+    float: right;
+    
+
+   }
+  /* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: -moz-hidden-unscrollable;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 17px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+ /*.topnav a.active {
+   background-color: lightpink;
+    color: white;
+  }*/
+  article{
+    column-count:2;
+  }
+  #hole{
+    display: flex;
+  }
+   aside{
+    margin-left: 300px;
+    border: none;
+    height: 300px;
+    width: 600px;
+    margin-top: 80px;
+  }
+  .img img{
+    width: 130%;
+    height: 50%;
+
+  }
+  
